@@ -4,7 +4,7 @@
 
 Mapping		|	Summary
 ----------------|------------------
-<esc>		| Exit out of any mode back into normal mode
+esc		| Exit out of any mode back into normal mode
 :q or :quit	| Quit out of Vim
 :w or :write	| Write the current file
 j, k		| Move the cursor down / up
@@ -28,3 +28,5 @@ n		| repeat last search
 N	        | repeat last search in opposite direction
 C-u, C-d	| move (u)p or (d)own
 <NN>G,:<NN>	| (G)o to line number NN (useful if you have a failing test on a given line)
+q<letter><commands>q | To enter a macro
+<number>@<letter> | To execute the macro <number> times
